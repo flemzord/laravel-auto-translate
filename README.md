@@ -117,7 +117,7 @@ If you discover any security related issues, please email moin@benjaminbortels.d
 
 ## Credits
 
-- [Benjamin Bortels](https://github.com/Flemzord)
+- [Benjamin Bortels](https://github.com/Ben182)
 - [All Contributors](../../contributors)
 
 ## License
