@@ -1,9 +1,9 @@
 <?php
 
-namespace Ben182\AutoTranslate\Tests;
+namespace Flemzord\AutoTranslate\Tests;
 
 use Themsaid\Langman\LangmanServiceProvider;
-use Ben182\AutoTranslate\AutoTranslateServiceProvider;
+use Flemzord\AutoTranslate\AutoTranslateServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

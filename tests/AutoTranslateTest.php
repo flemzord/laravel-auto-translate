@@ -1,11 +1,11 @@
 <?php
 
-namespace Ben182\AutoTranslate\Tests;
+namespace Flemzord\AutoTranslate\Tests;
 
 use Mockery;
 use Illuminate\Support\Arr;
-use Ben182\AutoTranslate\AutoTranslateFacade;
-use Ben182\AutoTranslate\Translators\TranslatorInterface;
+use Flemzord\AutoTranslate\AutoTranslateFacade;
+use Flemzord\AutoTranslate\Translators\TranslatorInterface;
 
 class AutoTranslateTest extends TestCase
 {

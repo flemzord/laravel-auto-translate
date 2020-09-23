@@ -1,11 +1,11 @@
 <?php
 
-namespace Ben182\AutoTranslate\Translators;
+namespace Flemzord\AutoTranslate\Translators;
 
 use Scn\DeeplApiConnector\DeeplClient;
 use Scn\DeeplApiConnector\Model\TranslationConfig;
 use Scn\DeeplApiConnector\Exception\RequestException;
-use Ben182\AutoTranslate\Exceptions\LanguageCodeNotExist;
+use Flemzord\AutoTranslate\Exceptions\LanguageCodeNotExist;
 
 class DeeplTranslator implements TranslatorInterface
 {
