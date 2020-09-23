@@ -1,11 +1,11 @@
 {
-    "name": "ben182/laravel-auto-translate",
+    "name": "flemzord/laravel-auto-translate",
     "description": "Automatically translate your language files using Google Translate",
     "keywords": [
-        "ben182",
+        "flemzord",
         "laravel-auto-translate"
     ],
-    "homepage": "https://github.com/ben182/laravel-auto-translate",
+    "homepage": "https://github.com/flemzord/laravel-auto-translate",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ben182\\AutoTranslate\\": "src"
+            "Flemzord\\AutoTranslate\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ben182\\AutoTranslate\\Tests\\": "tests"
+            "Flemzord\\AutoTranslate\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ben182\\AutoTranslate\\AutoTranslateServiceProvider"
+                "Flemzord\\AutoTranslate\\AutoTranslateServiceProvider"
             ],
             "aliases": {
-                "AutoTranslate": "Ben182\\AutoTranslate\\AutoTranslateFacade"
+                "AutoTranslate": "Flemzord\\AutoTranslate\\AutoTranslateFacade"
             }
         }
     }
